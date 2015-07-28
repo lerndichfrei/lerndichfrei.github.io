@@ -1,0 +1,91 @@
+ /*This file defines all the style issues for the  single pages, so that every page has the same general style (margins, size of frames etc) */
+
+body { background-color:transparent; } 
+
+.btn {
+	padding: 0px 5px;
+}
+
+
+#navbar {
+	background-color: rgba(177, 209, 178, 0.6);
+}
+
+
+
+.navbar{
+	position: absolute;
+	width: 100%;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+
+
+
+  vertical-align: top;
+
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.nav li {
+	float: left;
+	width: 150px;
+	position: relative;
+}
+
+.nav > li > a {
+display:inline-block; /* so float:none */
+	color: black;
+
+}
+
+.active {
+	//background-color: #EEE;
+	color: white;
+}
+
+.nav > li > a:focus,
+.nav > li > a:hover {
+    text-decoration: none;
+    background: none;
+}
+
+
+.jumbotron {
+	padding-left: 50px;
+	//background: rgba(238, 22, 238, .6);
+	background-image: url("images/bee_flower_extended_iv.jpg");
+	//background-size: contain;	
+	background-size: cover;
+	min-height: 500px;
+}
+
+.row{
+	//background: rgba(238, 238, 238, .6);
+}
+
+.content {
+	width:950px;
+	padding: 50px;
+	margin: 0px 200px 50px;
+	background: rgba(238, 238, 238, .6);
+}
+
+.table > thead > tr > th {
+	text-align: center;
+}
+
+footer{
+	background-color: rgba(225, 236, 205, 0.6); /*<!-- before it was:  rgba(177, 209, 178, 0.6);*/
+	margin-top: 50px;	
+	padding: 20px;
+	font-size: 0.875em;
+
+}
+
+
